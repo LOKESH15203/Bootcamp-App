@@ -62,7 +62,7 @@
             android:textColorHint="#DDDADA"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/college_Id"
+            app:layout_constraintTop_toBottomOf="@id/name"
             android:layout_marginLeft="40dp"
             android:layout_marginRight="40dp"
             android:layout_marginTop="30dp"
@@ -71,36 +71,36 @@
             />
 
         <EditText
-            android:id="@+id/college_Id"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/secular_one"
-            android:textSize="20dp"
-            android:hint="  College ID"
-            android:drawableEnd="@drawable/id_img"
-            android:textColorHint="#DDDADA"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/college_Id"
-            android:layout_marginLeft="40dp"
-            android:layout_marginRight="40dp"
-            android:layout_marginTop="30dp"
-            android:background="@drawable/edit_text_design"
-            android:padding="15dp"
-            />
-
-        <EditText
-            android:id="@+id/passText"
+            android:id="@+id/password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/secular_one"
             android:textSize="20dp"
             android:hint="  Password"
+            android:drawableEnd="@drawable/id_img"
+            android:textColorHint="#DDDADA"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/email"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edit_text_design"
+            android:padding="15dp"
+            />
+
+        <EditText
+            android:id="@+id/passConfirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/secular_one"
+            android:textSize="20dp"
+            android:hint="  Confirm Password"
             android:drawableEnd="@drawable/key_img"
             android:textColorHint="#DDDADA"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/college_Id"
+            app:layout_constraintTop_toBottomOf="@id/password"
             android:layout_marginLeft="40dp"
             android:layout_marginRight="40dp"
             android:layout_marginTop="30dp"
@@ -124,7 +124,7 @@
             android:textSize="17sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/passText"
+            app:layout_constraintTop_toBottomOf="@id/passConfirm"
             />
 
 
@@ -155,7 +155,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
-            android:id="@+id/login_college_Id"
+            android:id="@+id/logEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="40dp"
@@ -165,7 +165,7 @@
             android:drawableEnd="@drawable/btn_search"
             android:drawablePadding="10dp"
             android:fontFamily="@font/secular_one"
-            android:hint="  College Id"
+            android:hint="  Email"
             android:padding="15dp"
             android:textColor="@color/white"
             android:textColorHint="#DDDADA"
@@ -175,7 +175,7 @@
             app:layout_constraintTop_toBottomOf="@id/login_img" />
 
         <EditText
-            android:id="@+id/login_passText"
+            android:id="@+id/logPass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/secular_one"
@@ -185,7 +185,7 @@
             android:textColorHint="#DDDADA"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/college_Id"
+            app:layout_constraintTop_toBottomOf="@id/login_img"
             android:layout_marginLeft="40dp"
             android:layout_marginRight="40dp"
             android:layout_marginTop="30dp"
@@ -209,7 +209,7 @@
             android:textSize="17sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/passText"
+            app:layout_constraintTop_toBottomOf="@id/logPass"
             />
 
     </LinearLayout>
